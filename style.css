@@ -1,0 +1,16 @@
+body {
+
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: rgb(244, 156, 5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-container {
+    margin: 10px;
+}
+
