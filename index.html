@@ -20,18 +20,33 @@
 
 
     <main>
+        <!-- Section Hero -->
         <section id="hero">
-
             <h2>Selamat Datang di Roti Gembong!</h2>
             <p>Roti Gembong adalah tempat yang sangat nyaman dan enak dikonsumsi. Kami menyediakan berbagai macam roti kering, goreng, dan bakar yang siap diambil. Tidak hanya itu, kami juga memberikan pelayanan yang tepat dan terbaik.</p>
         </section>
 
+        <!-- Section About -->
         <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Roti Gembong adalah tempat yang sangat nyaman dan enak dikonsumsi. Kami menyediakan berbagai macam roti kering, goreng, dan bakar yang siap diambil. Tidak hanya itu, kami juga memberikan pelayanan yang tepat dan terbaik.</p>
+        
+            <form id="myform">
+                <label for="fname">Angka a:</label><br>
+                <input type="number" id="angkaA" name="fnumber" value="0"><br>
+                <label for="lname">Angka b:</label><br>
+                <input type="number" id="angkaB" name="lnumber" value="0"><br><br>
+                <button type="submit">Submit</button>
+            </form> 
 
+            <div id="hasil"></div>
+
+            <div id="tahunBerdiri"></div>
         </section>
 
+        <!-- Section Products -->
         <section id="products">
-            <h2>Menu Roti Gembong</h2>
+            <h2>Produk Kami</h2>
             <ul>
                 <li>Roti Kering</li>
                 <li>Roti Goreng</li>
@@ -39,6 +54,7 @@
             </ul>
         </section>
 
+        <!-- Section Services -->
         <section id="services">
             <h2>Services</h2>
             <ul>
@@ -49,6 +65,7 @@
         </section>
     </main>
 
+    <!-- Section Footer -->
     <footer>
         <p>&copy; 2021 Roti Gembong. All rights reserved.</p>
         <ul>
@@ -56,5 +73,6 @@
             <li><a href="#">Terms of Service</a></li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

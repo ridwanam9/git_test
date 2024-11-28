@@ -1,20 +1,89 @@
 body {
 
     background-color: antiquewhite;
+    /* width: 100%; */
 }
 
+a {
+    list-style-type: none;
+}
+
+form {
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+/* Header */
 header {
-    background-color: rgb(244, 156, 5);
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    /* width: 100%; */
+    /* position: fixed; */
+    /* top: 0; */
+}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    list-style: none;
+    color: aliceblue;
+
+}
+
+
+/* MAIN CONTENT */
+
+/* hero */
+#hero {
+    background-color: #ff8d21;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+/* about */
+#about {
+    background-color: #ffa652;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
-/* MAIN CONTENT */
+#hasil {
+    display: flex;
+    background-color: #85d476;
+    color: white;
+    padding: 10px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    /* width: 100; */
+    height: 100px;
+}
+
+
+#tahunBerdiri {
+    display: flex;
+    background-color: #72a169;
+    color: white;
+    padding: 10px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    /* width: 100; */
+    height: 100px;
+}
 
 /* products */
 #products {
-    background-color: aqua;
+    background-color: #ffb76b;
     /* margin: 10px; */
     display: flex;
     flex-direction: column;
@@ -24,16 +93,47 @@ header {
 }
 
 #products li {
-    text-decoration: none;
+    list-style: none;
     
 }
 
-footer {
-    background-color: rgb(244, 156, 5);
+/* services */
+#services {
+    background-color: #ffaa3b;
+    display: flex;
+    flex-direction: column;
     color: white;
     padding: 10px;
     text-align: center;
-    position: fixed;
+    list-style: none;
+}
+
+#services li {
+    list-style: none;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* position: fixed; */
     bottom: 0;
-    width: 100%;
+    /* width: 100%; */
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a {
+    list-style: none;
+    color: aliceblue;
+
 }
